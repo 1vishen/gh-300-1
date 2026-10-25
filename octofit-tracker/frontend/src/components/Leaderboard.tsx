@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import { getJson } from '../api/client.js';
 
@@ -43,4 +44,9 @@ export default function Leaderboard() {
       )}
     </section>
   );
+=======
+import { CapabilityCard } from './CapabilityCard.js';
+export default function Leaderboard() {
+  return <CapabilityCard title="Leaderboard" description="Compare team point totals." />;
+>>>>>>> origin/main
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import { getJson, postJson } from '../api/client.js';
 
@@ -112,4 +113,9 @@ export default function Teams() {
       )}
     </section>
   );
+=======
+import { CapabilityCard } from './CapabilityCard.js';
+export default function Teams() {
+  return <CapabilityCard title="Teams" description="Manage teams and members." />;
+>>>>>>> origin/main
 }

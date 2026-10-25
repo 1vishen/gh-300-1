@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import { getJson, postJson } from '../api/client.js';
 
@@ -131,4 +132,9 @@ export default function Activities() {
       )}
     </section>
   );
+=======
+import { CapabilityCard } from './CapabilityCard.js';
+export default function Activities() {
+  return <CapabilityCard title="Activities" description="Track student activity minutes and points." />;
+>>>>>>> origin/main
 }

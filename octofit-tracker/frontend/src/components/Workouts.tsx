@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useEffect, useState } from 'react';
 import { getJson } from '../api/client.js';
 
@@ -45,4 +46,9 @@ export default function Workouts() {
       )}
     </section>
   );
+=======
+import { CapabilityCard } from './CapabilityCard.js';
+export default function Workouts() {
+  return <CapabilityCard title="Workout suggestions" description="Recommend workouts from activity patterns." />;
+>>>>>>> origin/main
 }

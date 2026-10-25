@@ -30,6 +30,7 @@ OctoFit Tracker is a three-tier application for a school fitness program. The st
 
 Record your plan here before editing code.
 
+<<<<<<< HEAD
 - Presentation tier decision: Keep the existing React Router views, use the shared API client for all requests, and expose accessible states plus the documented activity and team creation forms.
 - Logic tier decision: Keep request validation and capability behavior in Express service functions, with deliberate 4xx responses for invalid or missing records.
 - Data tier decision: Enforce required fields and relationships in the four Mongoose schemas; seed stable demo records with upserts without clearing unrelated data.
@@ -37,13 +38,30 @@ Record your plan here before editing code.
 - Team management approach: Require a name and mascot, retain member references, and return teams through the `/api/teams` contract.
 - Leaderboard approach: Sum activity points per team, sort highest first, and assign 1-based ranks.
 - Workout suggestions approach: Match the user's goal when a matching workout exists, otherwise use recent activity focus; include a reason with each suggestion.
+=======
+- Presentation tier decision:
+- Logic tier decision:
+- Data tier decision:
+- Activity tracking approach:
+- Team management approach:
+- Leaderboard approach:
+- Workout suggestions approach:
+>>>>>>> origin/main
 
 ## Test plan
 
 Record the commands you run and what each failure means.
 
+<<<<<<< HEAD
 - Data-tier command: `npm run test:data --prefix octofit-tracker/backend` (schema invariants, relationships, and idempotent seed behavior)
 - API command: `npm run test:api --prefix octofit-tracker/backend` (request validation, status codes, and capability behavior)
 - Frontend command: `npm test --prefix octofit-tracker/frontend` (API rendering and accessible loading, empty, and error states)
 - Backend build command: `npm run build --prefix octofit-tracker/backend` (TypeScript type errors)
 - Frontend build command: `npm run build --prefix octofit-tracker/frontend` (TypeScript or Vite production-build errors)
+=======
+- Data-tier command: `npm run test:data --prefix octofit-tracker/backend`
+- API command: `npm run test:api --prefix octofit-tracker/backend`
+- Frontend command: `npm test --prefix octofit-tracker/frontend`
+- Backend build command: `npm run build --prefix octofit-tracker/backend`
+- Frontend build command: `npm run build --prefix octofit-tracker/frontend`
+>>>>>>> origin/main

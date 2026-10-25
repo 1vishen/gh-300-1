@@ -1,5 +1,6 @@
 # Build and test a multi-tier application with GitHub Copilot
 
+<<<<<<< HEAD
 _Use GitHub Copilot agent mode to implement, test, and review a React + Express + MongoDB application from executable contracts._
 
 <img src=".github/images/octofit-tracker.png" alt="GitHub Skills banner for Mergington High School: Build and test a multi-tier application with GitHub Copilot" width="720"/>
@@ -45,3 +46,15 @@ When copying the exercise, we recommend the following settings:
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+=======
+<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+
+Hey 1vishen!
+
+Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+
+Remember, it's self-paced so feel free to take a break! ☕️
+
+[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/1vishen/gh-300-1/issues/1)
+
+>>>>>>> origin/main
